@@ -2,6 +2,8 @@
 
 Generates IP range docs for Private GeoIP Encrichment Policy
 
+**Note - Known to be slow as sends doc per ip address, ensures unique ID per document**
+
 ## Usage
 
 Edit lists in `locations.json` and build/run
