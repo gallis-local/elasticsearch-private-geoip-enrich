@@ -2,7 +2,6 @@
 import os
 import json
 import ipaddress
-from typing import Mapping
 from elasticsearch import Elasticsearch,RequestsHttpConnection
 
 ## ENV VARS
