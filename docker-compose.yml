@@ -2,7 +2,7 @@ version: "3.3"
 services:
   elasticsearch-private-geoip-gen:
     build: .
-    image: d-reg.gallis.xyz/d-es-private-geoip-gen
+    image: es-private-geoip-gen
     environment:
       - ELASTIC_USER=elastic
       - ELASTIC_PASS=<password>
