@@ -10,7 +10,7 @@ Edit lists in `locations.json` and build/run
 
 Locations `city_name` must match Networks `name`
 
-## ES Integrations
+## Elasticsearch Integration
 
 Create a new ingest pipeline and apply Enrichment Policy that has been created
 Example `resources/geoip-info-pipeline.txt`
