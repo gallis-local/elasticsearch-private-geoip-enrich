@@ -1,0 +1,18 @@
+version: "3.3"
+services:
+  elasticsearch-private-geoip-gen:
+    build: .
+    image: d-reg.gallis.xyz/d-es-private-geoip-gen
+    environment:
+      - ELASTIC_USER=elastic
+      - ELASTIC_PASS=<password>
+      - ELASTIC_HOST=es.v.gallis.xyz:443
+      - ELASTIC_PROTO=https
+      - ELASTIC_INDEX=private_geoips
+      - ELASTIC_SSL_VERIFY=True
+      - ELASTIC_SSL=True
+      - CONFIG_FILE=locations.json
+      - CREATE_ENRICHMENT_POLICY=True
+      - CREATE_INDEX=True
+    volumes:
+      - ./locations.json:/usr/src/app/locations.json:ro

@@ -1,0 +1,7 @@
+GET private_geoips
+
+GET /_enrich/policy/private_geoips_policy
+
+POST /_enrich/policy/private_geoips_policy/_execute
+
+GET /_enrich/_stats
