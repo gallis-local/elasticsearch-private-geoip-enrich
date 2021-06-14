@@ -18,6 +18,21 @@ Use API Query to check if Enrich Event is occuring
 
 `GET /_enrich/_stats`
 
+## Environment Variables
+
+| Key | Value |
+|:--:|:--:|
+| ELASTIC_USER | `elastic` |
+| ELASTIC_PASS | `<password>` |
+| ELASTIC_HOST | `<elasticsearch_host>` |
+| ELASTIC_PROTO | `https`,`http` |
+| ELASTIC_INDEX | `private_geoips` |
+| ELASTIC_SSL_VERIFY | `True`,`False` |
+| ELASTIC_SSL | `True`,`False` |
+| CONFIG_FILE | `locations.json` |
+| CREATE_ENRICHMENT_POLICY | `True`, `False` |
+| CREATE_INDEX | `True`, `False` |
+
 ## Reference
 
 [Elasticsearch Blog Post](https://www.elastic.co/blog/enriching-elasticsearch-data-geo-ips-internal-private-ip-addresses)
