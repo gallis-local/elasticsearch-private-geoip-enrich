@@ -1,14 +1,12 @@
 {
     "locations": [
-        {"city_name":"Lehi","continent_name":"North America","country_iso_code":"US","country_name":"United States", "region_name":"Utah", "location":{"lat": 40.385, "lon":-111.829}},
-        {"city_name":"Charlottesville","continent_name":"North America","country_iso_code":"US","country_name":"United States", "region_name":"Virginia", "location":{"lat": 38.053, "lon": -78.4606}},
-        {"city_name":"Bellevue","continent_name":"North America","country_iso_code":"US","country_name":"United States","region_name":"Washington","location":{"lat": 47.6044, "lon":-122.1512}}  
+        {"city_name":"Los Angeles","continent_name":"North America","country_iso_code":"US","country_name":"United States", "region_name":"California", "location":{"lat": 42.385, "lon":-131.829}},
+        {"city_name":"New York","continent_name":"North America","country_iso_code":"US","country_name":"United States", "region_name":"New York", "location":{"lat": 32.053, "lon": -75.4606}},
     ],
 
     "networks": [
-        {"name": "Lehi", "network": "10.0.0.0/16", "_id":"lehi-ut-us"},
-        {"name": "Charlottesville", "network": "10.1.0.0/16", "_id":"charlottesville-va-us"},
-        {"name": "Bellevue", "network": "10.2.0.0/16", "_id":"bellevue-wa-us"}
+        {"name": "Los Angeles", "network": "10.0.0.0/16", "_id":"los-angeles-ca-us"},
+        {"name": "New York", "network": "10.1.0.0/16", "_id":"new-york-ny-us"},
     ]
 
 }
