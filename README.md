@@ -7,6 +7,7 @@ Generates IP range docs for Private GeoIP Encrichment Policy
 ## Usage
 
 Edit lists in `locations.json` and build/run
+
 Locations `city_name` must match Networks `name`
 
 ## ES Integrations
