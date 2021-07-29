@@ -4,6 +4,8 @@ Generates IP range docs for Private GeoIP Encrichment Policy
 
 **Note - Known to be slow as sends doc per ip address, ensures unique ID per document**
 
+[![Docker Image CI](https://github.com/gallis-local/elasticsearch-private-geoip-enrich/actions/workflows/docker.yml/badge.svg)](https://github.com/gallis-local/elasticsearch-private-geoip-enrich/actions/workflows/docker.yml)
+
 ## Usage
 
 Edit lists in `locations.json` and build/run
