@@ -1,4 +1,4 @@
-FROM python:slim
+FROM python:3.12.4-slim-bookworm
 
 WORKDIR /usr/src/app
 
